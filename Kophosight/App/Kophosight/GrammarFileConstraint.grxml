@@ -1,0 +1,1076 @@
+﻿<grammar xml:lang="en-US"
+         root="phonemes"
+         version="1.0"
+         tag-format="semantics/1.0"
+         xmlns:sapi="http://schemas.microsoft.com/Speech/2002/06/SRGSExtensions"
+         xmlns="http://www.w3.org/2001/06/grammar">
+
+  <rule id="phonemes">
+    <one-of>
+      <item>
+        <token sapi:display="11">pheu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="11">phin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">phi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">phon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">phan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">phou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">phai</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">phau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">phé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">fun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">phu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">pha</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">pho</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">phe</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="11">meu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="11">min</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">mi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">mon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">man</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">mou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">mè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">mau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">mé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">mun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">mu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">ma</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">mo</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">me</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="11">teu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="11">tin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">ti</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">ton</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="21">tan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">tou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">tè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="31">tau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">té</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">tun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="41">tu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">ta</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">to</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="51">te</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="12">peu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="12">pin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">pi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">pon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">pan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">pou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">pè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">pau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">pé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">pun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">pu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">pa</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">po</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">pe</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="12">deu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="12">din</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">di</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">don</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">dan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">dou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">dè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">dau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">dé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">dun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">du</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">da</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">do</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">de</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="12">jeu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="12">jin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">ji</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">jon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="22">jan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">jou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">jè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="32">jau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">jé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">jun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="42">ju</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">ja</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">jo</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="52">je</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="13">beu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="13">bin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="23">bi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="23">bon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="23">ban</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="33">bou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="33">bè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="33">bau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="43">bé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="43">bun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="43">bu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="53">ba</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="53">bo</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="53">be</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="13">neu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="13">nin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="23">ni</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="23">non</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="23">nan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="33">nou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="33">nè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="33">nau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="43">né</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="43">nun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="43">nu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="53">na</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="53">no</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="53">ne</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="14">leu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="14">lin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">li</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">lon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">lan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">lou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">lè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">lau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">lé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">lun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">lu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">la</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">lo</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">le</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="14">cheu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="14">chin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">chi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">chon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">chan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">chou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">chè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">chau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">ché</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">chun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">chu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">cha</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">cho</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">che</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="14">gneu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="14">gnin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">gni</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">gnon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">gnan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">gnou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">gnè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">gnau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">gné</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">gnun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">gnu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">gna</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">gno</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">gne</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="14">weu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="14">win</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">wi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">won</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="24">wan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">wou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">wè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="34">wau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">wé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">wun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="44">wu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">wa</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">wo</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="54">we</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="15">keu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="15">kin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">ki</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">kon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">kan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">kou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">kè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">kau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">ké</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">kun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">ku</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">ka</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">ko</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">ke</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="15">veu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="15">vin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">vi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">von</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">van</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">vou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">vè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">vau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">vé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">vun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">vu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">va</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">vo</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">ve</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="15">zeu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="15">zin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">zi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">zon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="25">zan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">zou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">zè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="35">zau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">zé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">zun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="45">zu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">za</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">zo</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="55">ze</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="16">reu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="16">rin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="26">ri</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="26">ron</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="26">ran</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="36">rou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="36">rè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="36">rau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="46">ré</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="46">run</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="46">ru</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="56">ra</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="56">ro</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="56">re</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="16">seu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="16">sin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="26">si</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="26">son</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="26">san</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="36">sou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="36">sè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="36">sau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="46">sé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="46">sun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="46">su</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="56">sa</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="56">so</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="56">se</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="17">geu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="17">gin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="27">gi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="27">gon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="27">gan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="37">gou</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="37">gè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="37">gau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="47">gé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="47">gun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="47">gu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="57">ga</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="57">go</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="57">ge</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="18">yeu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="18">yin</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="28">yi</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="28">yon</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="28">yan</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="38">you</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="38">yè</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="38">yau</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="48">yé</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="48">yun</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="48">yu</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="58">ya</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="58">yo</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+      <item>
+        <token sapi:display="58">ye</token>
+        <ruleref uri="#phonemes"/>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

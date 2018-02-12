@@ -1,0 +1,4 @@
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\Kophosight\Kophosight.csproj;x86

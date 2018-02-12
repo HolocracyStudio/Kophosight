@@ -1,0 +1,17 @@
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\ARM\Debug\Assembly-CSharp-firstpass.dll
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\ARM\Debug\Assembly-CSharp-firstpass.pdb
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\ARM\Debug\Assembly-CSharp-firstpass.pri
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.dll
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.pdb
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\priconfig.xml
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\priconfig.xml.intermediate
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\layout.resfiles
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\layout.resfiles.intermediate
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\resources.resfiles
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\resources.resfiles.intermediate
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\pri.resfiles
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\pri.resfiles.intermediate
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\qualifiers.txt
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\qualifiers.txt.intermediate
+D:\Documents\HolocracyStudio\Applications\Kophosight\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\MultipleQualifiersPerDimensionFound.txt

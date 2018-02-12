@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>Kophosight</UnityWSASolutionName>
+        <UnityWSASolutionDir>D:\Documents\HolocracyStudio\Applications\Kophosight\App\</UnityWSASolutionDir>
+        <UnityProjectDir>D:\Documents\HolocracyStudio\Applications\Kophosight\</UnityProjectDir>
+        <UnityWSAPlayerDir>$(UnityWSASolutionDir)</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>
